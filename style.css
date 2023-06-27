@@ -1,0 +1,21 @@
+dt::after {
+  content: ": ";
+}
+p {
+text-align: justify;
+}
+#titulo_receta {
+    font-size:2.8rem;
+    color: orange;
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+}
+div + h4 {
+    padding: 1rem 0 1rem 0;
+}
+#ingredientes{
+    background-color: orange;
+}
+#glosario{
+    background-color: lightblue;
+}
