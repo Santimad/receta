@@ -1,0 +1,89 @@
+
+#introduccion {
+  text-align: center;
+}
+#introduccion p{ 
+  padding-right: 8rem;
+  padding-left: 8rem;
+}
+.modulo#ingredientes{
+  padding-bottom:2rem;
+}
+#ingredientes img{
+  display: block;
+  width:35%;
+  margin-bottom: 2.5rem;
+}
+#lista_ingredientes{
+  float: left;
+  margin-right: 2.5rem;
+}
+#glosario{
+  max-width: 70%;
+}
+main{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.titulo#env_titulo{
+  text-align: start;
+}
+.modulo{
+  margin-left:8rem;
+  margin-right: 8rem;
+}
+main{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+main #img-verduras{
+  clear:right;
+  float:right;
+  width:35%;
+  margin:.2rem 0 2rem 2rem;
+}
+main #img-salsa{
+  float:left;
+  width:40%;
+  margin: 6.4rem 3rem 0 0;
+} 
+figure{
+  position: relative;
+  float: right;
+  width:25%;
+  padding: .4rem;
+  margin-top: -1.6rem;
+}
+p.titulo{ clear: right; }
+figure img.scaled{
+  width:100%;
+}
+figure p.img-container{
+  width: 75%; height: auto;
+  position: relative;
+  right:-1.5rem;
+}
+figure figcaption{
+  margin-top:-1rem;
+}
+.visibility{ 
+  display: none; 
+}
+.show{ 
+  display: inline;
+}
+.mb-tablet-2{
+  margin-bottom: 2rem;
+}
+#lista_salsa > li{ margin:.2rem 0 .2rem 0; }
+main h4.titulo{
+  padding-bottom: 1rem;
+}
+form{
+  padding-left:8rem;
+  max-width: 45%
+}
+.envoltura{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}

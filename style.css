@@ -1,4 +1,15 @@
 ol,ul,dl{margin: 0;}
+ol#lista_salsa{ list-style-type: none; counter-reset: li; }
+ol#lista_salsa li::before{
+  content: counter(li);
+  color:violet; width: 1em;
+  display: inline-block;
+  margin-left: -1em;
+}
+ol#lista_salsa li{ 
+counter-increment: li;
+padding-left:1.6em;
+}
 dt{
 float:left;
 clear:left;
@@ -44,7 +55,7 @@ figcaption{
 #ingredientes{
     background-color: orange;
 }
-#lista_ingredientes{
+ul{
   list-style-type: square;
 }
 #glosario{
@@ -64,7 +75,6 @@ figcaption{
 .modulo{
   margin: 0 2rem 2rem 2rem;
   padding:1rem 0 1rem 0;
-  border-radius: 2rem;
 }
 .titulo{
   margin-top: .5rem;
@@ -118,7 +128,7 @@ h4.titulo{
   display: none;
 }
 .envoltura{
-  margin: 1rem 1.5rem 1rem; 1.5rem;
+  margin: 1rem 1.5rem 1rem;
   border-radius: 2rem;
   border: 2px solid green;
   padding-bottom: 2.5rem;

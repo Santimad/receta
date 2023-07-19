@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" media="only screen and (orientation: landscape)" href="css/landscape.css">
+    <link rel="stylesheet" media="only screen and (min-width:768px)" href="css/tablet.css">
 </head>
 <body>
 <header>
@@ -34,17 +35,17 @@
 	</p>
 	</div>
     </div>
-    <div class="row">
+<!--    <div class="row">
 	<div class="column" id="plato_terminado">
 	<img src="img/chopsuey.jpg" alt="Imagen de referencia del plato terminado."/>
-	</div>
+	</div> -->
     </div>
 </div>
 </section>
-
 <section class="modulo" id="ingredientes">
   <div class="container">
     <h4 class="titulo" id="titulo_ingredientes"> Ingredientes: </h4>
+    <img src="img/chopsuey.jpg" alt="Imagen de referencia del plato terminado."/>
       <ul id="lista_ingredientes">
 	<li><span>1 taza de arroz blanco o integral</span></li>
 	<li><span>1/2 pimiento rojo</span></li>
@@ -54,6 +55,8 @@
 	<li><span>Cebolla de verdeo</span></li>
 	<li><span>400gr de pechuga de pollo deshuesada.</span></li>
 	<li><span>Jengibre</span></li>
+      </ul>
+      <ul>
 	<li><span>Zapallo italiano</span></li>
 	<li><span>Aceite vegetal o de girasol</span></li>
 	<li><span>Salsa de soja</span></li>
@@ -117,11 +120,10 @@
 		<p class="uppercase titulo" style="border: solid brown;"
 		><strong>para la elaboración principal:</strong></p>
 -->
-	    <h4 class="titulo">
-	      ¡Ahora, a cocinar!
+	    <h4 class="titulo my-2 clearfix">
+	      Para la preparación principal
 	    </h4>
-	    <div class="px-1" style="border: 2px solid blue;">
-	
+	    <div class="px-1 mb-tablet-2" style="border: 2px solid blue;">
 		<ol>
 		    <li>Precalentar el wok o la sartén a fuego fuerte y agregar el aceite de 
 		    girasol o vegetal (para esta preparación es preferi le usar uno
@@ -143,7 +145,7 @@
 		  src="img/salteado.jpg" alt="Imagen del salteado.">
 		  </p>
 		  <figcaption>
-		  Dolor eaque animi illum veniam odit. Soluta et exercitationem!
+		  Dolor eaque animi illum veniam odit.
 		  </figcaption>
 		  </figure>
 		  <ol start=5>
@@ -181,27 +183,29 @@
 </div>
 </main>
 <footer>
-    <section class="realizar_pedido">
+  <section class="realizar_pedido">
     <div class="container my-2">
-    <h3 class="banner">Si te gustó este plato puedes encargarlo de manera <strong>100% ONLINE</strong></h3>
-    <form class="my-2">
+      <h3 class="banner">Si te gustó este plato puedes encargarlo <br/>de manera <strong>
+			 100% ONLINE</strong></h3>
+      <form class="my-2">
 	<fieldset>
-	<label for="nombre">Nombre</label>
-	<input type="text" placeholder="Ingrese su nombre" id="nombre" required>
-	<label for="email"> Correo electrónico</label>
-	<input type="email" placeholder="Ingrese su correo electrónico." id="email" required>
-	<label for="detalleExtra"> Proporcione más información sobre su pedido</label>
-	<textarea placeholder="Me gustaría agregar ..." id="detalleExtra"></textarea>
-	<div class="float-right">
-	<input type="checkbox" id="confirmField" style="visibility:hidden;">
-	<label class="label-inline" style="visibility: hidden;"
-	  for="confirmField">Acepto las condiciones de uso.</label>
-	</div>
-	<input class="button-primary" type="submit" value="Enviar">
-    </fieldset>
-    </form>
+	  <label for="nombre">Nombre</label>
+	  <input type="text" placeholder="Ingrese su nombre" id="nombre" required>
+	  <label for="email"> Correo electrónico</label>
+	  <input type="email" placeholder="Ingrese su correo electrónico." id="email" required>
+	  <label for="detalleExtra"> Proporcione más información sobre su pedido</label>
+	  <textarea placeholder="Me gustaría agregar ..." id="detalleExtra"></textarea>
+	    <div class="float-right">
+	      <input type="checkbox" id="confirmField" style="visibility:hidden;">
+	      
+	      <label class="label-inline" style="visibility: hidden;"
+	      for="confirmField">Acepto las condiciones de uso.</label>
+	    </div>
+	  <input class="button-primary" type="submit" value="Enviar">
+	</fieldset>
+      </form>
     </div>
-    </section>
+  </section>
 </footer>
 </body>
 </html>
