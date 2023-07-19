@@ -1,0 +1,51 @@
+ol,ul,dl{margin: 0;}
+ol > li {
+  margin:.2rem 0 .2rem 0;
+}
+main p.titulo{
+  background-color: pink;
+  margin-bottom: .5rem;
+}
+figure{
+  float: right;
+  width:35%;
+}
+.modulo{                                                                                       	margin: 0 2rem 2rem 2rem;
+}
+main #img-verduras{
+  float:right;
+  width:40%;
+  margin:.2rem 0 0 1rem;
+}
+main #img-salsa{
+  float:left;
+  width:40%;
+  margin: 4rem 1rem 0 0; 
+}
+#lista_salsa{
+  line-height:1.4;
+  border: solid violet;
+}
+#introduccion{
+  margin:0 .5rem 0 .5rem;
+}
+#introduccion p{
+  padding:0 .5rem 0 .5rem;
+}
+#env_titulo{
+  text-align: start;
+}
+.visibility{
+  display: none;
+}
+.show{
+  display: inline;
+}
+.modulo#ingredientes{
+  max-width: 50%;
+}
+.modulo#glosario{
+  max-width: 90vw;
+}
+.clearfix{ clear: both; }
+
